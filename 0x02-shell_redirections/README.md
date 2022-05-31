@@ -19,3 +19,5 @@ creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing t
 9. 9-duplicate_last_line
 tail -1 < iacta >> iacta
 duplicates the last line of the file iacta
+10. find -name "*.js" -type f -delete
+deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
