@@ -21,3 +21,5 @@ tail -1 < iacta >> iacta
 duplicates the last line of the file iacta
 10. find -name "*.js" -type f -delete
 deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+11. find . -type d ! -path . -print | wc -l
+counts the number of directories and sub-directories in the current directory.
