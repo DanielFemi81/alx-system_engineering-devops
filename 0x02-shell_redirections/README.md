@@ -70,3 +70,4 @@ displays all users and their home directories, sorted by users
 
 
 23. find . -empty -printf "%f\n"
+find -type f -name "*.gif" -printf "%f\n" | rev | cut -d
