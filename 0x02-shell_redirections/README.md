@@ -10,3 +10,5 @@ Display the content of /etc/passwd and /etc/hosts
 Display the last 10 lines of /etc/passwd
 5. head -n 10 /etc/passwd
 Display the first 10 lines of /etc/passwd
+6. head -n 3 iacta | tail -n 1
+Write a script that displays the third line of the file iacta.
