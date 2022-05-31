@@ -23,3 +23,5 @@ duplicates the last line of the file iacta
 deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 11. find . -type d ! -path . -print | wc -l
 counts the number of directories and sub-directories in the current directory.
+12. ls -1t | head -10
+displays the 10 newest files in the current directory.
