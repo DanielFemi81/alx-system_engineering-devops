@@ -25,3 +25,4 @@ deletes all the regular files (not the directories) with a .js extension that ar
 counts the number of directories and sub-directories in the current directory.
 12. ls -1t | head -10
 displays the 10 newest files in the current directory.
+13. sort | uniq -u
