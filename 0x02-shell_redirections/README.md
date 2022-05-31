@@ -35,3 +35,4 @@ Display the number of lines that contain the pattern “bin” in the file /etc/
 16. grep -A 3 "root" /etc/passwd
 17. grep -v "bin" /etc/passwd
 18. grep ^[[:alpha:]] /etc/ssh/sshd_config
+19. tr 'A' 'Z' | tr 'c' 'e'
