@@ -38,4 +38,5 @@ Display the number of lines that contain the pattern “bin” in the file /etc/
 19. tr 'A' 'Z' | tr 'c' 'e'
 tr -d 'c' | tr -d 'C'
 21. rev
-22. sort /etc/passwd | cut -d':' -f 1,6
+22. cut -d':' -f 1,6 /etc/passwd | sort
+
