@@ -70,6 +70,14 @@ displays all users and their home directories, sorted by users
 
 
 23. find . -empty -printf "%f\n"
-find -type f -name "*.gif" -printf "%f\n" | rev | cut -d
-cut -c1 | paste -s | tr -d "[:blank:]"
-tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3
+finds all empty files and directories in the current directory and all sub-directories.
+
+24. find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+25. cut -c1 | paste -s | tr -d "[:blank:]"
+decodes acrostics that use the first letter of each line.
+
+26. tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3
+parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests
+
