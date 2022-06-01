@@ -25,3 +25,6 @@ prints the result of POWER divided by DIVIDE, followed by a new line.
 
 10. echo $(($((BREATH)) ** $((LOVE))))
 displays the result of BREATH to the power LOVE
+
+11. echo $((2#$BINARY))
+converts a number from base 2 to base 10.
