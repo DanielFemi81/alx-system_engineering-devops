@@ -40,3 +40,5 @@ converts a number from base 10 to base 16.
 
 13. tr 'A-Za-z' 'N-ZA-Mn-za-m'
 encodes and decodes text using the rot13 encryption. Assume ASCII
+16. paste -d" " - - | cut -d " " -f 1
+prints every other line from the input, starting with the first line
