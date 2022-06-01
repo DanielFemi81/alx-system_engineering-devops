@@ -1,12 +1,17 @@
 0. alias ls="rm *"
+creates an alias 
 
 01. echo "hello $USER"
+prints hello user, where user is the current Linux user.
 
 02. PATH=$PATH:/action
+Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
 03. echo $PATH | tr ":" "\n" | wc -l
+Create a script that counts the number of directories in the PATH
 
 04. printenv
+Create a script that lists environment variables
 
 05. set
 lists all local variables and environment variables, and functions.
@@ -15,9 +20,10 @@ lists all local variables and environment variables, and functions.
 creates a new local variable.
 
 07. export BEST="School"
+Create a script that creates a new global variable.
 
-echo $(($((TRUEKNOWLEDGE + 128))))
-8.prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+08. echo $(($((TRUEKNOWLEDGE + 128))))
+prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
 9. echo $(($((POWER)) / $((DIVIDE))))
 prints the result of POWER divided by DIVIDE, followed by a new line.
