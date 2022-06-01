@@ -34,3 +34,6 @@ prints all possible combinations of two letters, except oo
 
 13. printf "%0.2f\n" $NUM
 prints a number with two decimal places, followed by a new line.
+
+14. echo $((16#$DECIMAL))
+converts a number from base 10 to base 16.
