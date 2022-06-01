@@ -5,3 +5,4 @@ alias ls="rm *"
 printenv
 5. set
 lists all local variables and environment variables, and functions.
+2. PATH=$PATH:/action
