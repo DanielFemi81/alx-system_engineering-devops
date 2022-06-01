@@ -31,3 +31,6 @@ converts a number from base 2 to base 10.
 
 12. echo {a..z}{a..} | tr ' ' '\n' | grep -v oo
 prints all possible combinations of two letters, except oo
+
+13. printf "%0.2f\n" $NUM
+prints a number with two decimal places, followed by a new line.
