@@ -1,8 +1,13 @@
-alias ls="rm *"
+0. alias ls="rm *"
 
 01. echo "hello $USER"
-4. 4-global_variables
-printenv
-5. set
+
+02. PATH=$PATH:/action
+
+04. printenv
+
+05. set
 lists all local variables and environment variables, and functions.
-2. PATH=$PATH:/action
+
+06. BEST="School"
+creates a new local variable.
