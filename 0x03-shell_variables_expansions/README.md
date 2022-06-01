@@ -11,3 +11,5 @@ lists all local variables and environment variables, and functions.
 
 06. BEST="School"
 creates a new local variable.
+
+07. export BEST="School"
