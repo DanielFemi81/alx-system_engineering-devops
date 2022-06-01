@@ -4,6 +4,8 @@
 
 02. PATH=$PATH:/action
 
+03. echo $PATH | tr ":" "\n" | wc -l
+
 04. printenv
 
 05. set
@@ -13,3 +15,6 @@ lists all local variables and environment variables, and functions.
 creates a new local variable.
 
 07. export BEST="School"
+
+echo $(($((TRUEKNOWLEDGE + 128))))
+8.prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
